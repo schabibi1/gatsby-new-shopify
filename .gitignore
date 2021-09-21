@@ -1,0 +1,11 @@
+node_modules/
+.cache/
+public
+.idea
+.vscode
+.DS_Store
+.env
+.env.development
+*.log
+yarn.lock
+gatsby-node.old.js
