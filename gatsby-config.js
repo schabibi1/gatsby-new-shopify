@@ -16,6 +16,7 @@ module.exports = {
     {
       resolve: "gatsby-source-shopify",
       options: {
+        // Use environemnt variables for production purpose of use🙈
         password: "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",
         storeUrl: "gatsby-storyblok.myshopify.com",
         shopifyConnections: ["collections"],
@@ -27,17 +28,10 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-gatsby-cloud",
-    // Add your Google Analytics ID to the .env file to enable
-    // Otherwise, this plugin can be removed
-    // process.env.GOOGLE_ANALYTICS_ID && {
-    //   resolve: "gatsby-plugin-google-analytics",
-    //   options: {
-    //     trackingId: process.env.GOOGLE_ANALYTICS_ID,
-    //   },
-    // },
     {
       resolve: 'gatsby-source-storyblok',
       options: {
+        // Use environemnt variables for production purpose of use🙈
         accessToken: "xXHIsS7PgmYPGoQoUWtVLgtt",
         version: 'draft',
         // languages: ['de', 'at'] // Optional parameter. Omission will retrieve all languages by default.
