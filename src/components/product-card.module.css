@@ -79,6 +79,7 @@
   text-align: center;
   top: 50px;
   border-radius: var(--radius-sm);
+  font-weight: var(--bold);
 }
 
 .featuredImage {

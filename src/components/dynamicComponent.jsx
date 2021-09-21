@@ -3,13 +3,13 @@ import { sbEditable } from "@storyblok/storyblok-editable"
 import Hero from "./hero"
 import Grid from "./grid"
 import FeaturedProducts from "./featuredProducts"
-import CetegoryOfProducts from "./categoryOfProducts"
+import CategoryOfProducts from "./categoryOfProducts"
 
 const Components = {
   "hero": Hero,
   "grid": Grid,
   "featured-product": FeaturedProducts,
-  "category-grid": CetegoryOfProducts
+  "category-grid": CategoryOfProducts
 }
 
 const DynamicComponent = ({ blok }) => {
